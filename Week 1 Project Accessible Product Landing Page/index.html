@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Product Landing Page</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                    <li>Services</li>
+                </ul>
+            </nav>
+
+            <section>
+                <h1>Junior Frontend Developer</h1>
+                <h2>Aspiring junior frontend developer, aiming to make changes
+                    wherever I go.
+                </h2>
+            </section>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="Enter name" required><br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" aria-describedby="email-error" aria-required="true"
+                    placeholder="xyz@gmail.com"><br>
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" placeholder="Enter Password" required>
+                <br>
+                <button type="submit">submit</button>
+                <div aria-live="polite"></div>
+            </form>
+        </header>
+    </main>
+</body>
+
+</html>
